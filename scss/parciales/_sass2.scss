@@ -1,0 +1,88 @@
+$modo: claro;
+$theme-color: transparent;
+
+
+@if $modo == claro { 
+    $theme-color: #f5f5f5;
+
+} @else if $modo == oscuro{
+    $theme-color: black;
+    
+} 
+
+.sass2{
+    color: $theme-color;
+}
+
+$redes: ( 
+ whatsapp: green,
+ mail: orange
+); 
+
+@each $clave, $valor in $redes { 
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}
+
+
+.boton {
+    width:100px;
+    height:50px;
+    background-color:white;
+    text-align:center;
+    color:black;
+    border-radius:20px;
+    border:1px solid black;
+
+    &--llamar {
+        @extend .boton;
+        background-color:green;
+        color:black;
+    }
+
+    &--mail {
+        @extend .boton;
+        background-color:orange;
+        color:black;
+    }
+}
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.box-small {
+    @include sizes(100px, 100px);
+    background-color: navy;
+}
+
+.box-medium {
+    @include sizes(200px, 200px);
+}
+
+.box-big {
+    @include sizes(500px, 500px);
+    background-color: orange;
+}
+
+@mixin generarFlex($direction, $eje-principal, $eje-secundario: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $eje-principal;
+    align-items: $eje-secundario;
+}
+
+.socios_{
+    @include generarFlex(column, center, center)
+}
+
+.estudio_{
+    @include generarFlex(row, flex-start, center)
+}
+
+.areas_{
+    @include generarFlex(row, center)
+}
+   

@@ -1,0 +1,589 @@
+.sass-2 {
+   color: transparent;
+}
+  
+.btn-whatsapp {
+   background-color: green;
+}
+  
+.btn-mail {
+   background-color: orange;
+}  
+
+.boton, .boton--llamar, .boton--mail {
+   width: 100px;
+   height: 50px;
+   background-color: white;
+   text-align: center;
+   color: black;
+   border-radius: 20px;
+   border: 1px solid black;
+}
+ 
+.boton--llamar {
+  background-color: green;
+  color: black;
+}
+  
+.boton--mail {
+  background-color: red;
+  color: black;
+}
+
+.box-small {
+   height: 100px;
+   width: 100px;
+   background-color: navy;
+}
+ 
+.box-medium {
+   height: 200px;
+   width: 200px;
+}
+  
+.box-big {
+   height: 500px;
+   width: 500px;
+   background-color: orange;
+}
+
+.socios_ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.estudio_ {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+.areas_ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+
+
+.lista{    
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    align-items:space-between;
+    gap: 10px;
+    color: black;
+}
+
+.ul_header{
+    justify-content: space-around;
+    list-style-type:none;
+    color: black;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: xx-large;
+}
+h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: x-large;
+}
+
+h4{
+    text-align: right;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 8rem;
+    font-size:large;
+    font-weight: 50;
+    line-height: 1.2
+}
+.fw-bolder{
+    font-weight: bolder;
+    
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    padding: 16px 32px;
+    border: 2px solid black;
+    margin: 8px 8px;
+    display: block;
+    flex-direction: nowrap;
+}
+
+.grid-index{
+    display: grid;
+    grid-template-rows: 100px 50px;
+    grid-template-rows: 100px; 
+       
+}
+
+.grid_1{
+    display: grid;
+    grid-template-rows: 80px;
+    justify-items: right;
+}
+
+.footer_grid{
+    display: grid;
+    grid-template-rows: 150px;
+    justify-content: center;
+    align-items: end;
+}
+
+.imagen{
+    text-align: right;
+    width: 32px 32px;
+    margin-right: 2cm;
+    padding-right: 12px;
+
+}
+
+.footer{
+    text-align: center;
+} 
+
+.formula{
+    font-size: 25px;
+    
+}
+.insertar{
+    font-size: 18px;
+}
+
+.texto{
+    text-align: center;
+    font-size: large;
+}
+
+.principal{
+    text-align: right;
+    display:flow-root;
+    justify-content: space-between;
+    height: auto;
+    margin-left: 3cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.estudio{
+    text-align: right;
+    display: grid;
+    grid-template-rows: 10px 150px;
+    justify-content: right;
+    align-items: end;
+    margin-left: 2cm;
+    margin-block-end: 1cm;
+
+}
+
+.galeria{
+    text-align: center;
+}
+
+.titulo{
+    display: grid;
+    justify-content: center;
+    align-items:end;
+    margin-top: 2cm;
+    font-size: x-large;
+    
+}
+
+.texto{
+   
+    justify-content: center;
+    align-items:left;
+    grid-template-rows: 50px 10px;
+}
+
+.logo_areas{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li{
+    text-align: right;
+    list-style-type: none;
+}
+
+footer{
+    text-align: center;
+}
+
+.grid_formula{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    align-items: stretch;
+}
+
+.hamburguesa{
+    display: none;
+}
+
+.nav{
+    color: #af0404;
+}
+
+.contacto_telefono{
+    text-align: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contacto_direccion{
+    text-align: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contacto_grid{
+    display: grid;
+    grid-template-rows: 100px;
+    justify-items: right;
+    justify-content: baseline;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.nombre-socio{
+    text-align: left;
+    align-items: center;
+}
+
+.grid img{
+    height: 300px;
+    width: 500px;
+}
+.text-center{
+    text-align: center;
+    margin-top: 1cm;
+    font-size: larger;
+}
+.nombre-socio{
+    text-align: left;
+    justify-content: center;
+}
+.card-body{
+    text-align: center;
+    align-content: center;  
+}
+.card-text{
+    text-align: center;
+    align-content: center;
+}
+
+.card-body-index{
+    font-size: x-large;
+    text-align: center;
+    align-content: center;  
+
+}
+.card-title-socio{
+    font-size: x-large;
+}
+
+.miembros{
+    margin: 2cm;
+    padding-top: 1cm;
+    text-align: center;
+    align-items: center;
+    
+}
+.card-body-estudio{
+    text-align: end;
+    font-size: medium;
+    align-items: center;
+    justify-content: right;
+}
+.otras-formas{
+    margin: 2cm;
+    text-align: center;
+}
+.titulo-pagina{
+    margin: 1cm;
+   
+}
+.navbar-toggler{
+    text-align: end;
+    justify-content: right;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .section{
+        display: flex;
+    }
+    .grid-index{
+        display: grid;
+
+    }
+    .headerheader{
+        display: flex;
+        flex-direction: row;
+        grid-template-rows: 10px;
+        grid-column-gap: 5px;
+    } 
+    .logologo{
+        display: flex;
+        height: 100px; width: 330px;
+
+    } 
+    .titulo{
+        font-size: large;
+        
+    }
+    .subtitulo{
+        font-size: medium;
+    }  
+    .grid_1{
+        height: auto;
+        text-size-adjust: auto;
+        text-align: auto;
+    }
+    .imagen{
+        height: auto;
+        height: 250px;
+        width: 400px;
+    }
+    .lista{
+        display: flex;
+        flex-direction: row;
+    } 
+    .hamburguesa{
+        display: none;
+    }
+    .nav{
+        display: flex;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+    }
+    .grid img{
+        height: 300px;
+        width: 500px;
+    }
+    
+    .principal{
+        margin: 1cm;
+    }
+    
+    .estudio{
+        text-align: right;
+        display: grid;
+        align-content: center;
+        justify-content: end;
+        align-items: center;
+        justify-items: end;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
+    }
+    .miembros{
+        margin: 1cm;
+        padding-top: 1cm;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .carousel slide carousel-fade{
+        align-items: center;
+        align-content: center;
+    }
+    .carousel-item active{
+        align-items: center;
+        align-content: center;
+    }
+
+   
+}   
+
+
+@media screen and (max-width: 780px) {
+    .section{
+        display: flex;
+    }
+    .grid-index{
+        display: block;
+
+    }
+    .headerheader{
+        display: flex;
+        flex-direction: row;
+        grid-template-areas: auto;
+
+    }    
+    .lista{
+        display: flex;
+        flex-direction: row;
+
+    } 
+    .nav{
+        display: none;
+        
+    }
+    .logologo{
+        display: flex;
+        height: 80px; width: 180px;
+    }
+    .grid_1{
+        font-size: auto;
+    }
+    .hamburguesa{
+        display: block;
+    }
+    
+    .titulo{
+        font-size: large;
+    }
+    .subtitulo{
+        font-size: medium;
+    }
+   
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .grid img{
+        height: 200px;
+        width: 400px;
+    }
+    .contacto_grid{
+        justify-content: space-between;
+        text-align: center; 
+    }
+    
+    .imagen{
+        height: 250px;
+        width: 380px;
+        margin-top: 1cm;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .principal{
+        text-align: end;
+        justify-content: center;
+        margin: 2px;
+    }
+    
+    .estudio{
+        text-align: right;
+        display: grid;
+        grid-template-rows: 10px 40px;
+        justify-content: right;
+        align-items: end;
+        margin-top: 1cm;
+        margin-block-end: 1cm;
+        padding: 5px;        
+    }
+    .miembros{
+        margin: 1cm;
+        padding-top: 1cm;
+        text-align: center;
+        align-items: center;
+        
+    }
+   
+
+}   
+
+@media screen and (max-width: 480px) {
+    .section{
+        display: flex;
+    }
+    .grid-index{
+       display: grid;
+    }
+    .headerheader{
+        display: flex;
+        flex-direction: row;
+        grid-template-areas: auto;
+    }    
+    .lista{
+        display: flex;
+        flex-direction: row;
+    } 
+    .nav{
+        display: none;
+    }
+    .logologo{
+        display: flex;
+        height: 70px; width: 270px;
+    }
+    .hamburguesa{
+        display: block;
+    }
+        
+    .titulo{
+    font-size: medium;
+    }
+    .subtitulo{
+    font-size: small;
+    }
+      
+    .imagen{
+        width: 250px; height: 150px;
+        margin-top: 1cm;
+        text-align: center;        
+    }
+    .principal{
+        margin-top: 3cm;
+        text-align: center;
+    }
+    .grid_1{
+        text-size-adjust: 25px;
+    }
+    .container{
+        justify-content: space-between;
+    }
+    .grid img{
+        height: 180px;
+        width: 280px;
+        
+    }
+    .contacto_grid{
+        justify-content: space-between;
+        text-align: center;    
+    }
+    
+    
+    .estudio{
+        text-align: right;
+        display: grid;
+        grid-template-rows: 10px 150px;
+        justify-content: right;
+        align-items: end;
+        margin-top: 1cm;
+        padding: 5px;
+    }
+    .miembros{
+        margin: 1cm;
+        padding-top: 1cm;
+        text-align: center;
+        align-items: center;
+        
+    }
+    
+
+}

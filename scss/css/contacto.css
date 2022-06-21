@@ -1,0 +1,86 @@
+.header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: row;
+  justify-content: space-between;
+  align-items: space-between;
+  gap: 10px;
+  color: black;
+}
+
+.ul_header {
+  justify-content: space-around;
+  list-style-type: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+button {
+  font-size: 15px;
+}
+
+.contacto {
+  font-size: 15px;
+  text-align: right;
+}
+
+.grid_contacto {
+  display: grid;
+  grid-template-rows: 100px;
+  justify-items: right;
+  justify-content: baseline;
+  align-items: center;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  padding: 16px 32px;
+  border: 2px solid black;
+  margin: 8px 8px;
+  display: block;
+  flex-direction: nowrap;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-rows: 150px;
+  justify-content: center;
+  align-items: end;
+}
+
+.footer {
+  text-align: center;
+}
+
+nav ul li {
+  text-align: right;
+  list-style-type: none;
+}
+
+.transform-translate15 {
+  transform: translate(650px, -150px);
+}/*# sourceMappingURL=contacto.css.map */
